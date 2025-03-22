@@ -25,3 +25,10 @@
     display: inline-block;
 
 }
+.contents{
+    font-family: sans-serif;
+    color: black;
+    font-size: larger;
+    align-items: center;
+    width: 86%;
+}
