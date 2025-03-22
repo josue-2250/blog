@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+about{
+    text-align: center;
+    width: 76%;
+    color: honeydew;
+    margin: auto;
+}
+.eye{
+    width: 38%;
+    margin: 20px;
+}
