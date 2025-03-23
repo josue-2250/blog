@@ -6,7 +6,7 @@
 .header{
     width: 120;
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(0, 0, 0, 0.75)),url(image.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(0, 0, 0, 0.75)),url(92.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -23,7 +23,7 @@
     margin: 20px;
     position: relative;
     display: inline-block;
-    
+
 }
 .contents{
     font-family: sans-serif;
@@ -31,4 +31,10 @@
     font-size: larger;
     align-items: center;
     width: 86%;
+}
+.politic{
+    font-family: sans-serif;
+    font-weight: 30px;
+    display: center;
+
 }
