@@ -6,29 +6,34 @@
 .header{
     width: 120;
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(0, 0, 0, 0.75)),url(/images/image.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(0, 0, 0, 0.75)),url(/images/92.jpg);
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 .navbar{
     width: 85%;
-    margin: auto;
+    margin: auto; 
     padding: 35px 0;
+   
+}
+.navbar ul{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 20px;
 }
 .navbar ul li{
     list-style: none;
     margin: 20px;
-    position: relative;
-    display: inline-block;
 
 }
-.contents{
+.politic{
     font-family: sans-serif;
+    text-align: center;
+    position: absolute;
+}
+.politic h1{
     color: black;
-    font-size: larger;
-    align-items: center;
-    width: 86%;
+    font-size: 30px;
 }

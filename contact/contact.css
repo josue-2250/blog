@@ -6,7 +6,7 @@
 .header{
     width: 120;
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(0, 0, 0, 0.75)),url(photo.avif);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(0, 0, 0, 0.75)),url(/images/photo.avif);
     background-size: cover;
     background-position: center;
 }
@@ -48,7 +48,7 @@ form{
     outline: none;
 }
 .textarea-field{
-    height: 150px;
+    height: 100px;
     padding-top: 10px;
 }
 .button{
@@ -57,7 +57,8 @@ form{
     margin-top: 18px;
     padding-top: 10px;
     background-color: #47c35a;
-    font-size: 12px;
+    font-size: 30px;
     border: none;
     cursor: pointer;
+    border: 5px solid red;
 }

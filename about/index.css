@@ -16,7 +16,7 @@ about{
 .header{
     width: 120;
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(0, 0, 0, 0.75)),url(10.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(0, 0, 0, 0.75)),url(/images/10.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -24,14 +24,18 @@ about{
     width: 85%;
     margin: auto;
     padding: 35px 0;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+.navbar ul{
+    list-style: none;
+    margin: 20px;
+    position: relative;
+    display: flex;
+
 }
 .navbar ul li{
     list-style: none;
     margin: 20px;
     position: relative;
-    display: inline-block;
-
+    display: flex;
 }
